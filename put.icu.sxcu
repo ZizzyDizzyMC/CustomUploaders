@@ -1,0 +1,14 @@
+﻿{
+  "Version": "13.1.0",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "PUT",
+  "RequestURL": "https://put.icu/upload/",
+  "Headers": {
+    "Accept": "application/json",
+    "Linx-Delete-Key": null,
+    "Linx-Access-Key": null
+  },
+  "Body": "Binary",
+  "URL": "$json:url$",
+  "DeletionURL": "https://put.icu/delete/$json:filename$?linx-delete-key=$json:delete_key$"
+}
